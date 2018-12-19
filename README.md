@@ -17,7 +17,7 @@ mkdir build
 cd build
 
 conan install -g cmake -s build_type=Release ..
-cmake ..
+cmake .. -DCMAKE_BUILD_TYPE=Release
 cmake --build .
 ```
 
