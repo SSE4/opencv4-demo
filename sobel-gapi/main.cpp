@@ -29,7 +29,7 @@ int main(int argc, char * argv[])
 
     cv::GComputation computation(cv::GIn(gIn), cv::GOut(gOut));
 
-    cv::Mat imgIn = cv::imread("valve.png"), imgOut;
+    cv::Mat imgIn = cv::imread("in.png"), imgOut;
 
     computation.apply(cv::gin(imgIn), cv::gout(imgOut));
 

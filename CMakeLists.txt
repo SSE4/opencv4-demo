@@ -9,4 +9,4 @@ conan_basic_setup(TARGETS)
 add_subdirectory(sobel)
 add_subdirectory(sobel-gapi)
 
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/assets/valve.png DESTINATION bin)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/assets/in.png DESTINATION bin)
